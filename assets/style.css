@@ -68,9 +68,10 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	content-visibility: auto;
 
 }
+	
 #about-me {
 	flex: 2
 }
