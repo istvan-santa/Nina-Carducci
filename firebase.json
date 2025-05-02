@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "NINA-CARDUCCI-DEV",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

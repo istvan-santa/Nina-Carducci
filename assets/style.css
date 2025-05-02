@@ -42,6 +42,11 @@ body {
 	width: 20px;
 }
 
+.carousel-control-prev-icon {
+	color: #000;
+	opacity: unset;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -92,7 +97,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh; 
 }
 .title{
 	text-align: center;
@@ -102,8 +107,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: black;
+	background-color: white;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
