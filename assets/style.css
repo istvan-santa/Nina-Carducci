@@ -106,11 +106,27 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: black;
-	background-color: white;
-	border-radius:0 ;
-}
+/* Style de base pour les boutons de tags */
+.nav-pills .nav-link {
+	color: #000;
+	cursor: pointer; /* Curseur en forme de main */
+	transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Quand on passe la souris dessus */
+  .nav-pills .nav-link:hover {
+	background-color: #f0f0f0; /* Un léger gris au survol */
+	color: #1C6474; /* Couleur personnalisée si tu veux */
+  }
+  
+  /* Quand le bouton est actif (sélectionné) */
+  .nav-pills .nav-link.active, 
+  .nav-pills .show > .nav-link {
+	color: white; /* Texte blanc */
+	background-color: #1C6474; /* Bleu foncé pour indiquer actif */
+	border-radius: 0; /* Garde ton style plat si tu veux */
+  }
+  
 .nav-pills .nav-link {
 	color: #000
 }
